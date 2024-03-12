@@ -35,6 +35,9 @@
 }
 
 @media (max-width: 760px) {
+  .icon-container {
+    display: block;
+  }
   .list-menu {
     background-color: #19376d;
     flex-direction: column;
