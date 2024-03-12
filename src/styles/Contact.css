@@ -1,0 +1,33 @@
+.contact {
+  height: 150px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+.contact-list {
+  list-style-type: none;
+}
+
+.contact-list a {
+  text-decoration: none;
+}
+.icon-linkedin {
+  color: black;
+}
+
+.icon-mail {
+  color: black;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.icons {
+  margin-right: 5px;
+}

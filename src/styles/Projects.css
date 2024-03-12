@@ -14,6 +14,7 @@
   height: 450px;
   background: #f9f9f9;
   color: black;
+  font-size: 15px;
 }
 
 .card-container {
@@ -65,6 +66,17 @@
   flex-direction: column;
   transition: 0.3s ease-in-out;
   color: black;
+}
+
+.skill-container {
+  background-color: #19376d;
+  color: white;
+  padding: 5px 8px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  font-size: 13px;
 }
 
 .modal-title {

@@ -11,23 +11,21 @@ const Projects = () => {
       title: "MyMoviz",
       img: "./mymoviz.webp",
       description:
-        "MyMoviz est un site qui va vous permettre d’afficher les films les plus populaires avec la possibilité de créer une wishlist, placer un compteur de vues et de donner une évaluation de chacun des films présentés ",
+        "MyMoviz est un site qui permet d’afficher les films les plus populaires avec la possibilité de créer une wishlist, de placer un compteur de vues et de donner une évaluation de chacun des films présentés ",
       skills: ["React", "Nodejs", "Express"],
       details: [
         "Création une interface graphique avec JSX.",
         "Découpage de l'application en composants React.",
-        "Mise en œuvre des modules en ES6.",
-        "Utilisation des concepts de propriété et d’état d’un composant React.",
-        "Gestion des événements en React.",
+        "Gestion des hooks d'état",
         "Mise en place de l'API via un Backend.",
-        "Communication entre le frontend React et le Backend.",
+        "Communication entre le frontend et le Backend.",
       ],
     },
     {
       title: "Morning News",
       img: "./morningnews.webp",
       description:
-        "Morning News est une application web qui va vous permettre d’afficher les news récentes par source d’informations avec la possibilité de créer une wishlist pour les lire ultérieurement. ",
+        "Morning News est une application web qui permet d’afficher les news récentes par source d’informations avec la possibilité de créer une wishlist pour les lire ultérieurement. ",
       skills: ["React", "Nodejs", "Express", "Redux"],
       details: [
         "Mise en place une navigation avec le système des routes dans React.",
@@ -35,13 +33,14 @@ const Projects = () => {
         "Mise en place un système d’identification Sign in/Sign up.",
         "Utilisation de Redux pour faciliter l’échange de données.",
         "Mise en place une identification sécurisée.",
+        "Communication entre le frontend et le Backend.",
       ],
     },
     {
       title: "La Fraîche",
       img: "./lafraiche.webp",
       description:
-        "La Fraîche est une application permettant de commander des produits frais et de localiser son point de retrait le plus proche de chez vous pour faciliter votre quotidien.",
+        "La Fraîche est une application permettant de commander des produits frais et de localiser son point de retrait le plus proche pour faciliter son quotidien.",
       skills: ["React Native", "Nodejs", "Express", "Redux"],
       details: [
         "Utilisation l'environnement Expo pour déployer l'application sur les mobiles.",
@@ -72,7 +71,7 @@ const Projects = () => {
       title: "Todolist",
       img: "./todolist.webp",
       description:
-        "Todolist est une application qui vous aide à gérer votre quotidien en ajoutant, modifiant et supprimant toutes vos tâches à faire.",
+        "Todolist est une application qui vous aide à gérer votre quotidien en ajoutant, modifiant et supprimant ses tâches.",
       skills: ["React"],
       details: [
         "Création une interface graphique avec JSX.",
@@ -103,7 +102,7 @@ const Projects = () => {
         "Quiz App est une application mobile permettant de tester ses connaissances en français.",
       skills: ["React", "Nodejs", "Express", "Redux Toolkit"],
       details: [
-        "Conception de l'UI.",
+        "Création une interface graphique avec JSX.",
         "Utilisation l'environnement Expo pour déployer l'application sur les mobiles.",
         "Mettre en place une navigation pour mobile avec React Navigation.",
         "Utilisation de Redux Toolkit pour faciliter l’échange de données.",
@@ -134,7 +133,11 @@ const Projects = () => {
                 <p>{project.description}</p>
                 <div className="card-skills">
                   {project.skills.map((skill, i) => {
-                    return <p>{skill}</p>;
+                    return (
+                      <div className="skill-container">
+                        <p>{skill}</p>
+                      </div>
+                    );
                   })}
                 </div>
                 <button
