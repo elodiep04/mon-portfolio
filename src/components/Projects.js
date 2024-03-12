@@ -34,7 +34,7 @@ const Projects = () => {
         "Manipulation des champs de saisie dans React.",
         "Mise en place un système d’identification Sign in/Sign up.",
         "Utilisation de Redux pour faciliter l’échange de données.",
-        "Miseen place une identification sécurisée.",
+        "Mise en place une identification sécurisée.",
       ],
     },
     {
