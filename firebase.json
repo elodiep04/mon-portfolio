@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "build/elodie-portfolio",
     "ignore": [
       "firebase.json",
       "**/.*",
