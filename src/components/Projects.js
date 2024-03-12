@@ -93,7 +93,7 @@ const Projects = () => {
         "Découpage une application en composants React.",
         "Utilisation des concepts de propriété et d’état d’un composant React.",
         "Mise en place d'un formulaire de contact grâce à EmailJS.",
-        "Deploiement Firebse en CI",
+        "Deploiement Firebse en CI.",
       ],
     },
     {
@@ -107,7 +107,7 @@ const Projects = () => {
         "Utilisation l'environnement Expo pour déployer l'application sur les mobiles.",
         "Mettre en place une navigation pour mobile avec React Navigation.",
         "Utilisation de Redux Toolkit pour faciliter l’échange de données.",
-        "Communication entre le frontend et le Backend grâce aux API",
+        "Communication entre le frontend et le Backend grâce aux API.",
       ],
     },
   ];
