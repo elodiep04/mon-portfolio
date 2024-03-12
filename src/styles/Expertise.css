@@ -1,0 +1,29 @@
+.skills-row {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.section-img {
+  background-color: #19376d;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 100px;
+}
+
+@media (max-width: 760px) {
+  .skills-row {
+    justify-content: center;
+  }
+}

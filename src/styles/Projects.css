@@ -1,0 +1,104 @@
+.row-card {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  background: #f9f9f9;
+  color: black;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+  align-items: center;
+}
+.card p {
+  text-align: center;
+}
+.card-image {
+  overflow: hidden;
+  height: 200px;
+  width: 350px;
+}
+
+.card-skills {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.card-button {
+  align-self: end;
+  margin-right: 10px;
+  background-color: #19376d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.modal-background {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+.modal-container {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  color: black;
+}
+
+.modal-title {
+  background-color: #19376d;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.modal-infos {
+  display: flex;
+  height: 450px;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.modal-button {
+  align-self: center;
+  margin-right: 10px;
+  background-color: #19376d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .row-card {
+    justify-content: center;
+  }
+  .modal-background {
+    display: flex;
+    left: 0;
+  }
+}

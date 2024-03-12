@@ -1,0 +1,18 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.icon {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+}
+
+.section {
+  margin-top: 20px;
+  padding: 20px;
+}
