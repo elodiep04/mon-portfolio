@@ -14,7 +14,7 @@ const Projects = () => {
         "MyMoviz est un site qui permet d’afficher les films les plus populaires avec la possibilité de créer une wishlist, de placer un compteur de vues et de donner une évaluation de chacun des films présentés ",
       skills: ["React", "Nodejs", "Express"],
       details: [
-        "Création une interface graphique avec JSX.",
+        "Création d'une interface graphique avec JSX.",
         "Découpage de l'application en composants React.",
         "Gestion des hooks d'état",
         "Mise en place de l'API via un Backend.",
@@ -26,14 +26,16 @@ const Projects = () => {
       img: "./morningnews.webp",
       description:
         "Morning News est une application web qui permet d’afficher les news récentes par source d’informations avec la possibilité de créer une wishlist pour les lire ultérieurement. ",
-      skills: ["React", "Nodejs", "Express", "Redux"],
+      skills: ["React", "Nodejs", "Express", "Redux", "MongoDB"],
       details: [
-        "Mise en place une navigation avec le système des routes dans React.",
+        "Mise en place d'une navigation avec le système des routes dans React.",
         "Manipulation des champs de saisie dans React.",
-        "Mise en place un système d’identification Sign in/Sign up.",
+        "Mise en place d'un système d’identification Sign in/Sign up.",
         "Utilisation de Redux pour faciliter l’échange de données.",
-        "Mise en place une identification sécurisée.",
+        "Mise en place d'une identification sécurisée.",
         "Communication entre le frontend et le Backend.",
+        "Creation d'une API REST avec NodeJs et Express",
+        "Connection de l'API à une base de données MongoDB",
       ],
     },
     {
@@ -44,12 +46,14 @@ const Projects = () => {
       skills: ["React Native", "Nodejs", "Express", "Redux"],
       details: [
         "Utilisation l'environnement Expo pour déployer l'application sur les mobiles.",
-        "Mise en place un système d’identification Sign in/Sign up.",
-        "Mise en place une navigation pour mobile avec React Navigation.",
+        "Mise en place d'un système d’identification Sign in/Sign up.",
+        "Mise en place d'une navigation pour mobile avec React Navigation.",
         "Intégration d'une Map interactive sous React Native.",
-        "Mise en place un système de géolocalisation.",
+        "Mise en place d'un système de géolocalisation.",
         "Utilisation de Redux pour faciliter l’échange de données.",
         "Communication entre le frontend et le Backend via les APIs.",
+        "Creation d'une API REST avec NodeJs et Express",
+        "Connection de l'API à une base de données MongoDB",
       ],
     },
     {
@@ -59,25 +63,12 @@ const Projects = () => {
         "Pokédex est une application permettant de récupérer tous les pokémons répertoriés à ce jour.",
       skills: ["React"],
       details: [
-        "Création une interface graphique avec JSX.",
-        "Découpage une application en composants React.",
+        "Création d'une interface graphique avec JSX.",
+        "Découpage d'une application en composants React.",
         "Mise en œuvre des modules en ES6.",
         "Utilisation des concepts de propriété et d’état d’un composant React.",
         "Gestion des événements en React.",
         "Gestion de l'API Pokemon",
-      ],
-    },
-    {
-      title: "Todolist",
-      img: "./todolist.webp",
-      description:
-        "Todolist est une application qui vous aide à gérer votre quotidien en ajoutant, modifiant et supprimant ses tâches.",
-      skills: ["React"],
-      details: [
-        "Création une interface graphique avec JSX.",
-        "Découpage une application en composants React.",
-        "Mise en œuvre des modules en ES6.",
-        "Utilisation des concepts de propriété et d’état d’un composant React.",
       ],
     },
     {
@@ -89,7 +80,7 @@ const Projects = () => {
       details: [
         "Conception de l'UI.",
         "Création d'une interface graphique avec JSX.",
-        "Découpage une application en composants React.",
+        "Découpage d'une application en composants React.",
         "Utilisation des concepts de propriété et d’état d’un composant React.",
         "Mise en place d'un formulaire de contact grâce à EmailJS.",
         "Deploiement Firebse en CI.",
@@ -102,11 +93,13 @@ const Projects = () => {
         "Quiz App est une application mobile permettant de tester ses connaissances en français.",
       skills: ["React", "Nodejs", "Express", "Redux Toolkit"],
       details: [
-        "Création une interface graphique avec JSX.",
+        "Création d'une interface graphique avec JSX.",
         "Utilisation l'environnement Expo pour déployer l'application sur les mobiles.",
         "Mettre en place une navigation pour mobile avec React Navigation.",
         "Utilisation de Redux Toolkit pour faciliter l’échange de données.",
         "Communication entre le frontend et le Backend grâce aux API.",
+        "Creation d'une API REST avec NodeJs et Express",
+        "Connection de l'API à une base de données MongoDB",
       ],
     },
   ];

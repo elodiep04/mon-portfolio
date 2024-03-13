@@ -7,7 +7,9 @@ import "../styles/Contact.css";
 const Contact = () => {
   return (
     <div className="contact" id="contact">
-      <h3 className="contact-title">Toujours prête pour échanger avec vous</h3>
+      <h4 className="contact-title">
+        Je suis toujours disponible pour échanger !
+      </h4>
       <ul className="contact-list">
         <li>
           <a href="mailto:phauv.elodie@gmail.com" className="icon-mail">

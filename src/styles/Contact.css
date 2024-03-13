@@ -1,7 +1,7 @@
 .contact {
   height: 150px;
-  background-color: white;
-  color: black;
+  color: white;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,11 +17,11 @@
   text-decoration: none;
 }
 .icon-linkedin {
-  color: black;
+  color: white;
 }
 
 .icon-mail {
-  color: black;
+  color: white;
 }
 
 .contact-title {
