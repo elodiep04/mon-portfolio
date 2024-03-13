@@ -16,7 +16,6 @@ const Projects = () => {
       details: [
         "Création d'une interface graphique avec JSX.",
         "Découpage de l'application en composants React.",
-        "Gestion des hooks d'état",
         "Mise en place de l'API via un Backend.",
         "Communication entre le frontend et le Backend.",
       ],
@@ -29,11 +28,9 @@ const Projects = () => {
       skills: ["React", "Nodejs", "Express", "Redux", "MongoDB"],
       details: [
         "Mise en place d'une navigation avec le système des routes dans React.",
-        "Manipulation des champs de saisie dans React.",
         "Mise en place d'un système d’identification Sign in/Sign up.",
         "Utilisation de Redux pour faciliter l’échange de données.",
         "Mise en place d'une identification sécurisée.",
-        "Communication entre le frontend et le Backend.",
         "Creation d'une API REST avec NodeJs et Express",
         "Connection de l'API à une base de données MongoDB",
       ],
@@ -46,12 +43,9 @@ const Projects = () => {
       skills: ["React Native", "Nodejs", "Express", "Redux"],
       details: [
         "Utilisation l'environnement Expo pour déployer l'application sur les mobiles.",
-        "Mise en place d'un système d’identification Sign in/Sign up.",
         "Mise en place d'une navigation pour mobile avec React Navigation.",
-        "Intégration d'une Map interactive sous React Native.",
-        "Mise en place d'un système de géolocalisation.",
+        "Intégration d'une Map interactive sous React Native et d'un système de géolocalisation.",
         "Utilisation de Redux pour faciliter l’échange de données.",
-        "Communication entre le frontend et le Backend via les APIs.",
         "Creation d'une API REST avec NodeJs et Express",
         "Connection de l'API à une base de données MongoDB",
       ],
@@ -65,10 +59,7 @@ const Projects = () => {
       details: [
         "Création d'une interface graphique avec JSX.",
         "Découpage d'une application en composants React.",
-        "Mise en œuvre des modules en ES6.",
-        "Utilisation des concepts de propriété et d’état d’un composant React.",
-        "Gestion des événements en React.",
-        "Gestion de l'API Pokemon",
+        "Pokemon API call",
       ],
     },
     {
@@ -80,8 +71,6 @@ const Projects = () => {
       details: [
         "Conception de l'UI.",
         "Création d'une interface graphique avec JSX.",
-        "Découpage d'une application en composants React.",
-        "Utilisation des concepts de propriété et d’état d’un composant React.",
         "Mise en place d'un formulaire de contact grâce à EmailJS.",
         "Deploiement Firebse en CI.",
       ],
@@ -95,9 +84,8 @@ const Projects = () => {
       details: [
         "Création d'une interface graphique avec JSX.",
         "Utilisation l'environnement Expo pour déployer l'application sur les mobiles.",
-        "Mettre en place une navigation pour mobile avec React Navigation.",
+        "Mise en place d'une navigation pour mobile avec React Navigation.",
         "Utilisation de Redux Toolkit pour faciliter l’échange de données.",
-        "Communication entre le frontend et le Backend grâce aux API.",
         "Creation d'une API REST avec NodeJs et Express",
         "Connection de l'API à une base de données MongoDB",
       ],

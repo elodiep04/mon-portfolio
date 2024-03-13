@@ -12,15 +12,15 @@ const Contact = () => {
       </h4>
       <ul className="contact-list">
         <li>
-          <a href="mailto:phauv.elodie@gmail.com" className="icon-mail">
-            <FontAwesomeIcon icon={faEnvelope} className="icons" />
-            Mail
-          </a>
+          <FontAwesomeIcon icon={faEnvelope} className="icons" />
+          phauv.elodie@gmail.com
         </li>
         <li>
           <a
             href="https://www.linkedin.com/in/elodie-phauv/"
             className="icon-linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} className="icons" />
             Linkedin
