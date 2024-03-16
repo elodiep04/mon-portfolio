@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about-container section" id="about">
       <img
-        src={require("../assets/icon.webp")}
+        src="https://res.cloudinary.com/dj8uqrzqv/image/upload/v1710607080/icon_utsgvj.webp"
         className="icon"
         alt="icon-about"
       />
