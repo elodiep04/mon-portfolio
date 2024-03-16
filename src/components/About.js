@@ -1,14 +1,24 @@
 import React from "react";
 import "../styles/About.css";
+import { AdvancedImage } from "@cloudinary/react";
+import { Cloudinary } from "@cloudinary/url-gen";
 
 const About = () => {
-  return (
-    <section className="about-container section" id="about">
-      <img
-        src="https://res.cloudinary.com/dj8uqrzqv/image/upload/v1710607080/icon_utsgvj.webp"
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: "dj8uqrzqv",
+    },
+  });
+  const myImage = cld.image("v1710607080/icon_utsgvj.webp");
+  /*<img
+        src={require("../assets/icon.webp")}
         className="icon"
         alt="icon-about"
-      />
+      />*/
+  return (
+    <section className="about-container section" id="about">
+      <AdvancedImage cldImg={myImage} className="icon" alt="icon-about" />
+
       <p>
         {" "}
         <h1>Bienvenue, moi c'est Elodie ! </h1>

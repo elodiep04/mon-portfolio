@@ -1,15 +1,23 @@
 import React, { useState } from "react";
 import "../styles/Projects.css";
 import Modal from "./Modal";
+import { AdvancedImage } from "@cloudinary/react";
+import { Cloudinary } from "@cloudinary/url-gen";
 
 const Projects = () => {
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: "dj8uqrzqv",
+    },
+  });
+
   const [modalInfos, setModalInfos] = useState([]);
   const [showModal, setShoModal] = useState(false);
 
   const projects = [
     {
       title: "MyMoviz",
-      img: "./mymoviz.webp",
+      img: cld.image("v1710608645/mymoviz_dnbzu4.webp"),
       description:
         "MyMoviz est un site qui permet d’afficher les films les plus populaires avec la possibilité de créer une wishlist, de placer un compteur de vues et de donner une évaluation de chacun des films présentés ",
       skills: ["React", "Nodejs", "Express"],
@@ -22,7 +30,7 @@ const Projects = () => {
     },
     {
       title: "Morning News",
-      img: "./morningnews.webp",
+      img: cld.image("v1710608645/morningnews_ogjx9g.webp"),
       description:
         "Morning News est une application web qui permet d’afficher les news récentes par source d’informations avec la possibilité de créer une wishlist pour les lire ultérieurement. ",
       skills: ["React", "Nodejs", "Express", "Redux", "MongoDB"],
@@ -37,7 +45,7 @@ const Projects = () => {
     },
     {
       title: "La Fraîche",
-      img: "./lafraiche.webp",
+      img: cld.image("v1710608645/lafraiche_cokzy7.webp"),
       description:
         "La Fraîche est une application permettant de commander des produits frais et de localiser son point de retrait le plus proche pour faciliter son quotidien.",
       skills: ["React Native", "Nodejs", "Express", "Redux"],
@@ -52,7 +60,7 @@ const Projects = () => {
     },
     {
       title: "Pokedex",
-      img: "./pokemon.webp",
+      img: cld.image("v1710608645/pokemon_stxquy.webp"),
       description:
         "Pokédex est une application permettant de récupérer tous les pokémons répertoriés à ce jour.",
       skills: ["React"],
@@ -64,7 +72,7 @@ const Projects = () => {
     },
     {
       title: "Themis Advices",
-      img: "./themis-advices.webp",
+      img: cld.image("v1710608645/themis-advices_dym6ig.webp"),
       description:
         "Themis Advices est un site vitrine pour une entreprise de conseils d'entreprises incluant un formulaire de contact.",
       skills: ["React", "Emailjs", "Firebase"],
@@ -77,7 +85,7 @@ const Projects = () => {
     },
     {
       title: "Quiz App",
-      img: "./quiz.png",
+      img: cld.image("v1710608645/quiz_xacj9q.png"),
       description:
         "Quiz App est une application mobile permettant de tester ses connaissances en français.",
       skills: ["React", "Nodejs", "Express", "Redux Toolkit"],
@@ -107,7 +115,12 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="card">
-              <img src={project.img} alt="img" className="card-image" />
+              <AdvancedImage
+                cldImg={project.img}
+                alt="img"
+                className="card-image"
+                loading="lazy"
+              />
               <div className="card-container">
                 {" "}
                 <h4>{project.title}</h4>
