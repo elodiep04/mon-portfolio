@@ -4,7 +4,11 @@ import "../styles/About.css";
 const About = () => {
   return (
     <section className="about-container section" id="about">
-      <img src="./icon.webp" className="icon" alt="icon-about" />
+      <img
+        src={require("../assets/icon.webp")}
+        className="icon"
+        alt="icon-about"
+      />
       <p>
         {" "}
         <h1>Bienvenue, moi c'est Elodie ! </h1>
